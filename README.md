@@ -1,6 +1,19 @@
 # CIFAR-10<br>
 This repository is a comparative study of three most basic models in the field of Computer Vision, i.e., Neural Networks, Convolutional Neural Networks, and Residual Neural Networks.<br>
+
+## DataSet<br>
 These models were trained on training data of 50000 images and tested on data 10000 images available as built-in datasets in [Keras](https://keras.io/api/datasets/cifar10/).<br>
+These images were of the size 32*32*3 and they could be mutually exclusively classified into 10 classes. The labeled classes in the datasets are:
+- Airplane 
+- Automobile 
+- Bird 
+- Cat 
+- Deer 
+- Dog 
+- Frog 
+- horse 
+- Ship 
+- Truck
 
 ## [Neural Network](https://github.com/utmaktharsurh/CIFAR-10/blob/master/nn.ipynb)<br>
 The architecture of neuralnetworks consists of 3 hidden layers of 784, 84, and 20 units. A batch normalisation layer is added in between the 2nd and the 3rd hidden layer.<br>
