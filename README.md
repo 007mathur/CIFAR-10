@@ -30,4 +30,5 @@ The number of channels after convolution blocks are 6, 16, 32, and 64 respective
 The Model 39,144 parameters out of which 38,920 parameters are trainnable and rest 224 parameters are non-trainable. After training the model over 20 epochs in batch sizes of 256 (196 batches per epoch), it is able to achieve an accuracy of 69.26%.<br>
 
 **By this comparative study I've observed that by using the concept of residual networks or skip connections, accuracy of a Computer Vision Model can be enhanced.**<br>
+
 If you've any suggestions or feedbacks, please feel free to drop comments and make pull requests.
