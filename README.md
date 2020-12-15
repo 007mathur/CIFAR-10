@@ -16,18 +16,25 @@ These images were of the size 32x32x3 and they could be mutually exclusively cla
 - Truck
 
 ## [Neural Network](https://github.com/utmaktharsurh/CIFAR-10/blob/master/nn.ipynb)<br>
-The architecture of neuralnetworks consists of 3 hidden layers of 784, 84, and 20 units. A batch normalisation layer is added in between the 2nd and the 3rd hidden layer.<br>
-The Model has 2,477,418 parameters out of which 2,447,250 parameters are trainable and rest 168 parameters are non-trainable. Atfer training the model over 15 epochs in batch sizes of 256 (196 batches per epoch), it is able to achieve an accuracy of 43.67%.<br>
+The architecture of neural networks consists of 2 hidden layers of 784, and 100 units. A batch normalisation layer is added in between the 2nd and the 3rd hidden layer.<br>
+The Model has 2,492,278 parameters out of which 2,490,510 parameters are trainable and rest 1,768 parameters are non-trainable. Atfer training the model over 15 epochs in batch sizes of 128 (391 batches per epoch), it is able to achieve an accuracy of 48.42%.<br>
 
 ## [Convolutional Neural Networks](https://github.com/utmaktharsurh/CIFAR-10/blob/master/cnn.ipynb)<br>
-The architecture of neuralnetworks consists of 3 convolution blocks and a fully connected layer of 32 units.<br> 
-A convolutional block consists of a convolutional layer followed by a max pooling layer. The number of channels after convolution blocks are 6, 16, and 32 respectively. A batch normalisation layer is added after every convolutional block and the fully connected layer.<br>
-The Model 22,778 parameters out of which 22,606 parameters are trainnable and rest 172 parameters are non-trainable. After training the model over 20 epochs in batch sizes of 256 (196 batches per epoch), it is able to achieve an accuracy of 67.39%.<br>
+The architecture of neural networks consists of 3 convolution blocks and a fully connected layer of 100 units.<br> 
+A convolutional block consists of a convolutional layer followed by a max pooling layer. The number of channels after convolution blocks are 16, 32, and 64 respectively. A batch normalisation layer is added after every convolutional block and the fully connected layer.<br>
+The Model 127,942 parameters out of which 127,518 parameters are trainnable and rest 424 parameters are non-trainable. After training the model over 20 epochs in batch sizes of 128 (391 batches per epoch), it is able to achieve an accuracy of 72.899%.<br>
 
 ## [Residual Neural Networks](https://github.com/utmaktharsurh/CIFAR-10/blob/master/resnet.ipynb)<br>
-The architecture of neuralnetworks consists of 4 convolution blocks and a fully connected layer of 32 units.<br> 
-The number of channels after convolution blocks are 6, 16, 32, and 64 respectively. A batch normalisation layer is added after every two convolutional block and the fully connected layer.<br>
-The Model 39,144 parameters out of which 38,920 parameters are trainnable and rest 224 parameters are non-trainable. After training the model over 20 epochs in batch sizes of 256 (196 batches per epoch), it is able to achieve an accuracy of 69.26%.<br>
+The architecture of neural networks consists of a convolutional layer, 4 convolution blocks and a fully connected layer of 200 units.<br> 
+The number of channels after convolution blocks are 16, 32, 63, and 128 respectively. A batch normalisation layer is added after every two convolutional block and the fully connected layer.<br>
+The Model 540,820 parameters out of which 539,926 parameters are trainnable and rest 894 parameters are non-trainable. After training the model over 20 epochs in batch sizes of 64 (782 batches per epoch), it is able to achieve an accuracy of 77.759%.<br>
+<br>
+| Model                              | Accuracy | Loss  |
+| :--------------------------------: | :------: | :---: |
+| Neural Network Model               | 48.42%   | 1.488 |
+| Convolutional Neural Network Model | 72.899%  | 1.555 |
+| Residual Neural Network Model      | 77.759%  | 1.289 |
+
 
 **By this comparative study I've observed that by using the concept of residual networks or skip connections, accuracy of a Computer Vision Model can be enhanced.**<br>
 
