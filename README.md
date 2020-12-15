@@ -3,7 +3,7 @@ This repository is a comparative study of three most basic models in the field o
 
 ## DataSet<br>
 These models were trained on training data of 50000 images and tested on data 10000 images available as built-in datasets in [Keras](https://keras.io/api/datasets/cifar10/).<br>
-These images were of the size 32*32*3 and they could be mutually exclusively classified into 10 classes. The labeled classes in the datasets are:
+These images were of the size 32x32x3 and they could be mutually exclusively classified into 10 classes. The labeled classes in the datasets are:
 - Airplane 
 - Automobile 
 - Bird 
